@@ -1,0 +1,137 @@
+/* Beginning of the styling of index.html */
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+
+* {
+  display: border-box;
+}
+
+body {
+  margin: 0px;
+  background-image: url(https://www-learnsquared-com.s3.amazonaws.com/comments/learnsquared_homework_02_v01-1480343637.gif);
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+}
+
+.navigation {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(37, 150, 190);
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.nav-links {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: white;
+  font-family: 'Chewy';
+  display: block;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+}
+
+
+.nav-name {
+  background-color: rgb(37, 150, 190);
+  font-size: 2em;
+  font-family: 'Pacifico';
+}
+
+#contact-me {
+  background-color: rgb(241, 92, 67);
+  padding: 0.3em;
+  border-radius: 10px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6em;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(37, 150, 190);
+  line-height: 2em;
+  left: 13vw;
+  margin: 7vw;
+  padding: 5px;
+  overflow: hidden;
+  border-radius: 15px;
+  text-align: center;
+  font-family: 'Indie Flower';
+  opacity: 0.8;
+  }
+
+ 
+.hello {
+  font-size: 2.1em;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+/* End of the styling of index.html */
+
+.languages {
+    display: flex;
+    margin-top: 5vw;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    line-height: 4em;
+    
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.5em;
+    font-style: oblique;
+    font-family: 'Coda Caption', sans-serif;
+    
+}
+
+hr {
+    width: 75%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.profile-picture {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me-div {
+    background-color: honeydew;
+    text-align: center;
+    font-size: 1em;  
+    display: block;
+    margin: 5em;
+    padding: 1.5em;
+    border-radius: 30px;
+}
+
+
+.about {
+    line-height: 1.5em;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.5em;
+}
